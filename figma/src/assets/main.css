@@ -1,0 +1,32 @@
+
+
+
+#app{
+  
+  padding: 0;
+  max-width: 1024px;
+  margin: 0 auto;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+main{
+  min-height: 80vh;
+}
+.footer-view{
+  display: flex;
+  justify-content: center;
+ 
+  bottom: 0;
+}
+@media screen and (min-width: 412px){
+  #app{
+   
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   text-align: center;  
+  }
+}
+
