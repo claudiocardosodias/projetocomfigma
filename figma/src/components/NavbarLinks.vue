@@ -47,5 +47,12 @@ nav{
     display: flex;
     gap: 20px;
 }
+
+@media screen and (max-width: 340px) {
+    .links{
+        display: flex;
+    justify-content: space-around;
+    }
+}
  
 </style>

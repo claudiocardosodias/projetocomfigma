@@ -25,4 +25,20 @@
     align-items: center;
     line-height: 30px;
 }
+
+@media screen and (min-width: 340px) {
+   .about-desc {
+    text-align: center;
+    padding: 20px;
+}
+div img{
+        display: flex;
+        justify-content: center;
+        height: 400px;
+    }
+    h1{
+        display: flex;
+        justify-content: center;
+    }
+}
 </style>
